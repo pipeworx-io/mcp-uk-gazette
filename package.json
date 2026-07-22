@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-uk-gazette",
+  "version": "0.1.0",
+  "description": "The Gazette — official UK public record: insolvencies, winding-up petitions, deceased estates, honours",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "uk-gazette"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-uk-gazette"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
