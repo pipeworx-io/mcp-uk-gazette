@@ -2,8 +2,8 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/uk-gazette",
   "title": "Uk Gazette",
-  "description": "The Gazette — official UK public record: insolvencies, winding-up petitions, deceased estates, honours",
-  "version": "0.1.0",
+  "description": "UK Gazette MCP — The Gazette (www.thegazette.co.uk), the UK's official",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/uk-gazette",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-uk-gazette",
