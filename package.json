@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-uk-gazette",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "UK Gazette MCP — The Gazette (www.thegazette.co.uk), the UK's official",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-8d138ced651e68bad50ee2e663a079b5ee6630ac355b06dae69bd520811ac80c",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-0ed1e220b2dac8403e4a6f4427a92c0e87e9052231266256f99e7ed14fd6042b",
+    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
   }
 }
