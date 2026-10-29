@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-uk-gazette",
-  "version": "0.1.2",
-  "description": "UK Gazette MCP — The Gazette (www.thegazette.co.uk), the UK's official",
+  "version": "0.2.0",
+  "description": "UK Gazette MCP — The Gazette (www.thegazette.co.uk), the UK's official public record (London / Edinburgh / Belfast editions). Keyless JSON API.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-uk-gazette": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "uk-gazette"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-uk-gazette.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/uk-gazette",
   "pipeworx": {
-    "sourceHash": "v1-0ed1e220b2dac8403e4a6f4427a92c0e87e9052231266256f99e7ed14fd6042b",
-    "sourceCommit": "66a0692f029179984440cef6938cba7fdd41d66d"
+    "mode": "gateway",
+    "slug": "uk-gazette",
+    "gatewaySlug": "uk-gazette",
+    "sourceHash": "v1-2478b243cbf93725939b922e9395eee22ebd225a790b136c28388fb5376cc567",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
